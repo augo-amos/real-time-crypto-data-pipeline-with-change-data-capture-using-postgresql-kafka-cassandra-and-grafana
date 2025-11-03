@@ -189,12 +189,12 @@ python3 cassandra_api.py
 
 ## **Author**
 
-**Amos [Your Last Name]**
+**Augo Amos**
 *Data Engineer | Python Developer | Data Analyst*
 
 ---
 
 ## **License**
 
-MIT License © 2025 Amos
+MIT License © 2025 
 
