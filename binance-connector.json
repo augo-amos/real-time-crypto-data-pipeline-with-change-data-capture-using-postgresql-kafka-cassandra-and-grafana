@@ -1,0 +1,19 @@
+{
+  "name": "binance-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "plugin.name": "pgoutput",
+    "database.hostname": "postgres",
+    "database.port": "5432",
+    "database.user": "debezium",
+    "database.password": "debezium",
+    "database.dbname": "binance_db",
+    "database.server.name": "binance",
+    "slot.name": "debezium_slot",
+    "publication.name": "debezium_publication",
+    "topic.prefix": "binance",
+    "table.include.list": "public.crypto_24h_stats",
+    "tombstones.on.delete": "false",
+    "snapshot.mode": "initial" 
+  }
+}

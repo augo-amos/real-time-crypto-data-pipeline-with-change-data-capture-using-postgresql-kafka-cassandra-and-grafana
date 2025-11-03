@@ -1,0 +1,5 @@
+FROM confluentinc/cp-zookeeper:7.5.0
+
+USER root
+RUN microdnf install -y nc && microdnf clean all
+USER appuser
