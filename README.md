@@ -117,11 +117,6 @@ Shows trading activity trends.
 
 ```sql
 SELECT open_time AS time, number_of_trades FROM klines WHERE symbol = 'ETHUSDT' ALLOW FILTERING;
-```
-
-#### Example Dashboard Snapshots:
-
-*(Insert Grafana screenshots here)*
 
 ---
 
